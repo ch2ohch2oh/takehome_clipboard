@@ -26,3 +26,11 @@ Create a new function called `setAgentCustomID(facilityID, agentID, customID)`, 
 an agent in the database. The function should check for the case
 where the `facilityID` and `agentID` are not valid.
 
+### Task 3 Update the getShiftsByFacility to include agent `customID`
+Update the `GetShiftsByFacility` function to include the `cusomtID` of
+each agent as specified in the `AgentAlias` table. 
+This can be done easily by a table join on the backend.
+
+### Task 4 Update the `generateReport` function to include agent `customID`
+Update the `generateReport` function such that the `customID` field
+is correctly rendered in the generated pdf file.
